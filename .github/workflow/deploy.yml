@@ -27,5 +27,5 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v6
         with:
-          branch: gh-pages       # GitHub Pages ke liye branch
-          folder: build          # Build folder deploy hoga
+          branch: gh-pages       # GitHub Pages ke liye branch  
+          folder: dist             # Build folder deploy hoga
