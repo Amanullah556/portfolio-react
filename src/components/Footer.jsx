@@ -4,8 +4,8 @@ import { motion } from "framer-motion"; // Framer Motion import
 import profilePic from "../assets/about.jpeg";
 
 const socials = [
-  { id: "github", url: "https://github.com/kashifmehmoodtech17-cyber", icon: <FaGithub /> },
-  { id: "linkedin", url: "https://www.linkedin.com/in/kashif-mehmood-a47594397", icon: <FaLinkedin /> },
+  { id: "github", url: "https://github.com/Amanullah556", icon: <FaGithub /> },
+  { id: "linkedin", url: "https://www.linkedin.com/in/aman-ullah-40b26a394", icon: <FaLinkedin /> },
   { id: "whatsapp", url: "https://wa.me/923369188433", icon: <FaWhatsapp /> },
   { id: "instagram", url: "https://instagram.com/amanullahhkb", icon: <FaInstagram /> },
 ];
