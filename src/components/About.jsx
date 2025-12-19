@@ -1,3 +1,5 @@
+import aboutImage from "../assets/about.jpeg";
+
 function About() {
   return (
     <section id="about" className="bg-black text-white py-24">
@@ -19,7 +21,7 @@ function About() {
                             rounded-2xl overflow-hidden border-4
                             border-indigo-500 shadow-xl">
               <img
-                src="src/assets/about.jpeg"
+                src={aboutImage}
                 alt="About"
                 className="w-full h-full object-cover"
               />
