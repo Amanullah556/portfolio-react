@@ -7,6 +7,7 @@ import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import NewYearEvent from "./components/NewYear/NewYearEvent";
+import NewYearWish from "./components/WishNewYear";
 import { useEffect, useState } from "react";
 import { AnimatePresence } from "framer-motion";
 
@@ -48,6 +49,9 @@ function App() {
          <div className="bg-black text-white">
         <Navbar />
         <Hero />
+        <div className="relative z-20 -mt-20 mb-20">
+               <NewYearWish />
+            </div>
         <About />
         <Projects />
         <Skills />
